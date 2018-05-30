@@ -4,5 +4,5 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem "streamio-ffmpeg"
+#gem "streamio-ffmpeg"
 gem "nokogiri","1.8.2"

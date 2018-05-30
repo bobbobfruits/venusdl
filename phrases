@@ -6,6 +6,8 @@ title:ABC World News
 URL:https://www.kinsei-do.co.jp/plusmedia/4051
 code:7F5PY7E1
 
+User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0
 
+発行するコマンド:ffmpeg -user_agent “＜コピペしておいたUser-Agent＞” -i ＜コピペしておいたm3u8ファイルのURL＞ -movflags faststart -c copy -bsf:a aac_adtstoasc ＜mp4ファイル（名前は自由）＞
 
 
